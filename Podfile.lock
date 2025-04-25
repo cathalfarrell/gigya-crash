@@ -1,0 +1,33 @@
+PODS:
+  - Gigya (1.7.4)
+  - GigyaAuth (1.1.2):
+    - Gigya (>= 1.6.0)
+  - GigyaNss (1.9.7):
+    - GigyaNss/Core (= 1.9.7)
+  - GigyaNss/Core (1.9.7):
+    - Gigya (>= 1.7.3)
+  - GigyaTfa (1.0.14):
+    - Gigya
+
+DEPENDENCIES:
+  - Gigya
+  - GigyaAuth
+  - GigyaNss
+  - GigyaTfa
+
+SPEC REPOS:
+  trunk:
+    - Gigya
+    - GigyaAuth
+    - GigyaNss
+    - GigyaTfa
+
+SPEC CHECKSUMS:
+  Gigya: b7429813483f9699ac35628ebf7df0ed24ea8aca
+  GigyaAuth: 32cd49aa9eb380275ad10d85543a90ce326fe4fb
+  GigyaNss: 7df073f8337f24259a838f831f2320deb5e842f6
+  GigyaTfa: 6b0362ba08548129455218866f3602d7c65d511d
+
+PODFILE CHECKSUM: e2b74ed57a71990b5e44693c4143ad59f0a8a8b2
+
+COCOAPODS: 1.16.2
